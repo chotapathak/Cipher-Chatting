@@ -5,7 +5,7 @@ import { process } from '../Redstore/action/index';
 import './chat.css';
 
 function Chat({ username, roomname, socket}) {
-    const [text, setText] = useState('');
+    const [text, setText] = useState("");
     const [messages, setMessage] = useState([]);
 
     const dispatch = useDispatch();
